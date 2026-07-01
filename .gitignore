@@ -1,0 +1,62 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# AI assistants (local config, memory, caches)
+boost.json
+/.claude/
+CLAUDE.md
+/.aider*
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
+/.copilot/
+/.cody/
+/.continue/
+/.codeium/
+/.gemini/
+GEMINI.md
+AGENTS.md
+/.openai/
+.chatgpt*
+
+# Other editors
+/.fleet/
+/.history/
+/.vs/
+
+# OS / editor swap files
+*.swp
+*.swo
+*~
+
+# Local dev tooling
+/.vagrant/
+/.docker-sync/
+
+# Backup of pre-AI Tesseract implementation (kept locally for rollback reference)
+app/Http/Controllers/OcrController.tesseract.php.bak
